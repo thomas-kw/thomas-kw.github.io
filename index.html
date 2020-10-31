@@ -1,72 +1,136 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Thomas</title>
-    <link rel="stylesheet" href="css/styles.css" />
-    <link rel="icon" href="images/favicon.ico" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <div class="top-container">
-      <img class="top-cloud" src="images/cloud.png" alt="cloud-img" />
-      <h1>Thomas</h1>
-      <h2 class="subtitle">I've designed this website in my spare time.</h2>
-      <img class="bottom-cloud" src="images/cloud.png" alt="cloud-img" />
-      <img src="images/mountain.png" alt="mountain-img" />
-    </div>
 
-    <div class="middle-container">
-      <div class="profile">
-        <img class="circular" src="images/pic.png" alt="me-img" />
-        <h2>Hello.</h2>
-        <p class="intro">
-          I enjoy making websites. I enjoy doing stuff. I enjoy playing games.
-          Awesome. Thank you for visiting
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Thomas</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="icon" href="images/favicon.ico" />
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap"
+    rel="stylesheet" />
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+
+  <!-- CSS Style Sheets -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+    integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Font Awesome -->
+  <script src="https://use.fontawesome.com/601b7e1749.js"></script>
+  <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" data-auto-replace-svg="nest"></script>
+
+  <!-- Bootstrap Scripts -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
+    integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s"
+    crossorigin="anonymous"></script>
+
+</head>
+
+
+<body>
+
+      <!-- Nav Bar -->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="">Navigation</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#footer">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#pricing">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#cta">Download</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+
+
+
+
+
+
+
+
+
+
+  <div class="top-container">
+    <img class="top-cloud" src="images/cloud.png" alt="cloud-img" />
+    <h1>Thomas</h1>
+    <h2 class="subtitle">I've designed this website in my spare time.</h2>
+    <img class="bottom-cloud" src="images/cloud.png" alt="cloud-img" />
+    <img src="images/mountain.png" alt="mountain-img" />
+  </div>
+
+  <div class="middle-container">
+    <div class="profile">
+      <img class="circular" src="images/pic.png" alt="me-img" />
+      <h2>Hello.</h2>
+      <p class="intro">
+        I enjoy making websites. I enjoy doing stuff. I enjoy playing games.
+        Awesome. Thank you for visiting
+      </p>
+    </div>
+    <hr />
+    <div class="skills">
+      <h2>Stuff I do</h2>
+      <div class="skill-row">
+        <img class="circular1" src="images/skill.png" alt="skill-img" />
+        <h3>Playing video games</h3>
+        <p>
+          The computers games that I'm playing these days are Phasmaphobia, Microsoft Flight Simulator, among many
+          others.
         </p>
       </div>
-      <hr />
-      <div class="skills">
-        <h2>Stuff I do</h2>
-        <div class="skill-row">
-          <img class="circular1" src="images/skill.png" alt="skill-img" />
-          <h3>Playing video games</h3>
-          <p>
-            The computers games that I'm playing these days are Phasmaphobia, Microsoft Flight Simulator, among many others. 
-          </p>
-        </div>
-        <div class="skill-row">
-          <img class="circular2" src="images/computer.png" alt="pc-img" />
-          <h3>Computers</h3>
-          <p>
-            What do I work on in terms of computers? I do python coding, machine learning exercises and I'm currently working on Web technologies, such as 
-            html, css, bootstrap, javascript and so on.
-          </p>
-        </div>
-      </div>
-      <hr />
-      <div class="contact-me">
-        <h2>Get In Touch</h2>
-        <h3>Feel free to contact me. I guess.</h3>
-        <p class="contactmsg">
-          Here are some websites I frequent. When I have time. Get in touch with
-          me if you want to hang out and discuss anything of interest.
+      <div class="skill-row">
+        <img class="circular2" src="images/computer.png" alt="pc-img" />
+        <h3>Computers</h3>
+        <p>
+          What do I work on in terms of computers? I do python coding, machine learning exercises and I'm currently
+          working on Web technologies, such as
+          html, css, bootstrap, javascript and so on.
         </p>
-        <a href="mailto:whelan.thomas@gmail.com" class="BUTTON_ABR"
-          >CONTACT ME</a
-        >
       </div>
     </div>
-
-    <div class="bottom-container">
-      <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
-      <a class="footer-link" href="https://twitter.com/">Twitter</a>
-      <a class="footer-link" href="https://www.appbrewery.co/">Website</a>
-      <p class="copyright">© 2020 Thomas</p>
+    <hr />
+    <div class="contact-me">
+      <h2>Get In Touch</h2>
+      <h3>Feel free to contact me. I guess.</h3>
+      <p class="contactmsg">
+        Here are some websites I frequent. When I have time. Get in touch with
+        me if you want to hang out and discuss anything of interest.
+      </p>
+      <a href="mailto:whelan.thomas@gmail.com" class="BUTTON_ABR">CONTACT ME</a>
     </div>
-  </body>
+  </div>
+
+  <div class="bottom-container">
+    <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
+    <a class="footer-link" href="https://twitter.com/">Twitter</a>
+    <a class="footer-link" href="https://www.appbrewery.co/">Website</a>
+    <p class="copyright">© 2020 Thomas</p>
+  </div>
+</body>
+
 </html>
