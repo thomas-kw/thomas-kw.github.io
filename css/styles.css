@@ -3,9 +3,29 @@ body {
   text-align: center;
 }
 
+.title-image {
+  max-width: 100%;
+}
+
 .container-fluid {
   padding: 7% 15%;
 }
+
+.big-heading {
+  text-align: left;
+  line-height: 1.5;
+}
+
+.navbar {
+  margin: 0 0 4.5rem;
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+
+
 
 .middle-container {
   margin: 50% auto;
